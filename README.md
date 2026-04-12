@@ -26,5 +26,6 @@ This design aims to improve the **wall-clock delay–convergence tradeoff** in h
 ├── engine.py              # Core asynchronous SFL training engine; comparison schemes implementations are stored here
 ├── main.py                # Main entry point for running experiments
 ├── models.py              # Model definitions and split-model utilities
+├── system_profile.py      # Generate a model profiler for cut-layer-specific FLOPs, communication cost, and activation size
 ├── .gitignore
 └── README.md
