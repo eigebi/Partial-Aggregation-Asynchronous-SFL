@@ -1,0 +1,22 @@
+# .gitignore
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+
+# PyTorch 模型权重 (文件太大，git 不适合存)
+*.pth
+*.pt
+*.ckpt
+
+# 数据集文件夹 (根据你的 config.py，你的数据似乎在 data 目录下)
+data/
+datasets/
+
+# 你的 IDE 配置 (比如 VSCode)
+.vscode/
+.idea/
+
+# 虚拟环境
+venv/
+env/
